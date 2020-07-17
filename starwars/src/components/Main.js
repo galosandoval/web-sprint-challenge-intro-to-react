@@ -8,10 +8,6 @@ console.log(data)
   return (
     <div className='Main-Container'>
       <div>
-        {/* {data.forEach(data => {
-        return data.name
-        }) */}
-      {/* } */}
       <Character data={data} />
       </div>
 

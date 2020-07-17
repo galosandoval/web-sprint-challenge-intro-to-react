@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS consolidates data into components, which can be reused. It's used explicitly for UI. 
+
 1. Describe component state.
+
+State is a dynamic property of a component. 
 
 1. Describe props.
 
+props are used for component children to inherit data from parent components
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+anything that affects something outside of the current scope of the function being executed
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

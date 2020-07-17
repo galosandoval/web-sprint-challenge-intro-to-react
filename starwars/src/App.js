@@ -19,28 +19,15 @@ useEffect(() => {
   .then(res => {
     console.log(res.data)
     setData(res.data.results)
-    // console.log(res.data.results)
   })
   .catch(err => {
     console.log(err, 'oops')
   })
 }, [])
 
-// const Friend = ({info}) => (
-//   <div className='friend'>
-//       {info.name}
-//   </div>
-// )
-
-
-
-
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      {/* {data.map(fr => {
-        return <Friend key={fr.id} info={fr} />
-      })} */}
       {data.map(data => {
         return <Main data={data}/>
         // console.log(name)
